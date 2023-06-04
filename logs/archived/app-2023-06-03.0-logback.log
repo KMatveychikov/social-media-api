@@ -1,0 +1,685 @@
+2023-06-03 07:12:58,969 INFO [http-nio-8080-exec-1] org.apache.juli.logging.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-03 07:12:58,996 INFO [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2023-06-03 07:12:59,026 INFO [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet: Completed initialization in 30 ms
+2023-06-03 07:25:26,973 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 07:25:26,982 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-06-03 07:25:26,985 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-06-03 07:44:09,097 INFO [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils: Could not detect default configuration classes for test class [ru.matvey.socialmediaapi.service.PostServiceTest]: PostServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-03 07:44:09,282 INFO [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper: Found @SpringBootConfiguration ru.matvey.socialmediaapi.SocialMediaApiApplication for test class ru.matvey.socialmediaapi.service.PostServiceTest
+2023-06-03 07:44:09,681 INFO [main] org.springframework.boot.StartupInfoLogger: Starting PostServiceTest using Java 19.0.2 with PID 19744 (started by matvey in E:\Dev\IdeaProjects\social-media-api)
+2023-06-03 07:44:09,682 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0, Spring v6.0.9
+2023-06-03 07:44:09,683 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-06-03 07:44:10,486 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-03 07:44:10,563 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 68 ms. Found 7 JPA repository interfaces.
+2023-06-03 07:44:12,581 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-03 07:44:12,679 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-03 07:44:12,683 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-06-03 07:44:12,895 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 07:44:12,908 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-03 07:44:12,935 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-06-03 07:44:13,217 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@33f81280
+2023-06-03 07:44:13,220 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-06-03 07:44:13,294 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@4189e668
+2023-06-03 07:44:13,696 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 07:44:14,402 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-03 07:44:14,577 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 07:44:15,109 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-03 07:44:15,493 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@709353b9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@69c53b72, org.springframework.security.web.context.SecurityContextHolderFilter@24673720, org.springframework.security.web.header.HeaderWriterFilter@4cb0e39e, org.springframework.security.web.authentication.logout.LogoutFilter@7ea91c39, ru.matvey.socialmediaapi.config.JwtAuthenticationFilter@4e8b36af, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@704ddfad, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@23973547, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@768967cf, org.springframework.security.web.session.SessionManagementFilter@2e640411, org.springframework.security.web.access.ExceptionTranslationFilter@d0456ad, org.springframework.security.web.access.intercept.AuthorizationFilter@203ba07]
+2023-06-03 07:44:15,879 INFO [main] org.springframework.boot.StartupInfoLogger: Started PostServiceTest in 6.435 seconds (process running for 7.796)
+2023-06-03 07:44:15,960 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 07:44:16,044 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 07:44:16,047 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-06-03 07:44:16,051 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-06-03 07:45:08,649 INFO [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils: Could not detect default configuration classes for test class [ru.matvey.socialmediaapi.service.PostServiceTest]: PostServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-03 07:45:08,792 INFO [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper: Found @SpringBootConfiguration ru.matvey.socialmediaapi.SocialMediaApiApplication for test class ru.matvey.socialmediaapi.service.PostServiceTest
+2023-06-03 07:45:09,184 INFO [main] org.springframework.boot.StartupInfoLogger: Starting PostServiceTest using Java 19.0.2 with PID 24108 (started by matvey in E:\Dev\IdeaProjects\social-media-api)
+2023-06-03 07:45:09,185 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0, Spring v6.0.9
+2023-06-03 07:45:09,185 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-06-03 07:45:09,917 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-03 07:45:09,995 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 70 ms. Found 7 JPA repository interfaces.
+2023-06-03 07:45:12,050 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-03 07:45:12,138 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-03 07:45:12,143 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-06-03 07:45:12,387 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 07:45:12,401 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-03 07:45:12,424 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-06-03 07:45:12,689 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3a0e7f89
+2023-06-03 07:45:12,692 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-06-03 07:45:12,758 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@5807ea46
+2023-06-03 07:45:13,150 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 07:45:13,886 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-03 07:45:14,069 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 07:45:14,547 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-03 07:45:14,912 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@96271d8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@15f3f9cf, org.springframework.security.web.context.SecurityContextHolderFilter@36b2b6e6, org.springframework.security.web.header.HeaderWriterFilter@730611a0, org.springframework.security.web.authentication.logout.LogoutFilter@2aadeb31, ru.matvey.socialmediaapi.config.JwtAuthenticationFilter@37823482, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17af9f67, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b6d8671, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7b8d1537, org.springframework.security.web.session.SessionManagementFilter@315bb2bb, org.springframework.security.web.access.ExceptionTranslationFilter@135f760a, org.springframework.security.web.access.intercept.AuthorizationFilter@67e12e28]
+2023-06-03 07:45:15,313 INFO [main] org.springframework.boot.StartupInfoLogger: Started PostServiceTest in 6.343 seconds (process running for 7.662)
+2023-06-03 07:45:15,393 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 07:45:15,394 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.nio.file.FileAlreadyExistsException: E:\Dev\IdeaProjects\social-media-api\files\null
+2023-06-03 07:45:15,490 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 07:45:15,492 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-06-03 07:45:15,497 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-06-03 07:48:05,854 INFO [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils: Could not detect default configuration classes for test class [ru.matvey.socialmediaapi.service.PostServiceTest]: PostServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-03 07:48:05,974 INFO [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper: Found @SpringBootConfiguration ru.matvey.socialmediaapi.SocialMediaApiApplication for test class ru.matvey.socialmediaapi.service.PostServiceTest
+2023-06-03 07:48:06,370 INFO [main] org.springframework.boot.StartupInfoLogger: Starting PostServiceTest using Java 19.0.2 with PID 9852 (started by matvey in E:\Dev\IdeaProjects\social-media-api)
+2023-06-03 07:48:06,370 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0, Spring v6.0.9
+2023-06-03 07:48:06,371 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-06-03 07:48:07,094 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-03 07:48:07,172 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 70 ms. Found 7 JPA repository interfaces.
+2023-06-03 07:48:09,175 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-03 07:48:09,250 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-03 07:48:09,254 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-06-03 07:48:09,446 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 07:48:09,455 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-03 07:48:09,475 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-06-03 07:48:09,717 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@746fd19b
+2023-06-03 07:48:09,719 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-06-03 07:48:09,783 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@127d2aee
+2023-06-03 07:48:10,159 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 07:48:10,817 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-03 07:48:10,991 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 07:48:11,478 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-03 07:48:11,864 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2aadeb31, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@704ddfad, org.springframework.security.web.context.SecurityContextHolderFilter@c9234a0, org.springframework.security.web.header.HeaderWriterFilter@6ad036d6, org.springframework.security.web.authentication.logout.LogoutFilter@65c634f2, ru.matvey.socialmediaapi.config.JwtAuthenticationFilter@99948fe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@b91e024, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@309ac89e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@23973547, org.springframework.security.web.session.SessionManagementFilter@194a653d, org.springframework.security.web.access.ExceptionTranslationFilter@4d82ded2, org.springframework.security.web.access.intercept.AuthorizationFilter@5fe19d0e]
+2023-06-03 07:48:12,247 INFO [main] org.springframework.boot.StartupInfoLogger: Started PostServiceTest in 6.109 seconds (process running for 7.423)
+2023-06-03 07:48:12,324 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 07:48:12,325 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.nio.file.FileAlreadyExistsException: E:\Dev\IdeaProjects\social-media-api\files\null
+2023-06-03 07:48:12,414 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 07:48:12,417 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-06-03 07:48:12,420 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-06-03 07:49:11,913 INFO [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils: Could not detect default configuration classes for test class [ru.matvey.socialmediaapi.service.PostServiceTest]: PostServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-03 07:49:12,052 INFO [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper: Found @SpringBootConfiguration ru.matvey.socialmediaapi.SocialMediaApiApplication for test class ru.matvey.socialmediaapi.service.PostServiceTest
+2023-06-03 07:49:12,435 INFO [main] org.springframework.boot.StartupInfoLogger: Starting PostServiceTest using Java 19.0.2 with PID 24048 (started by matvey in E:\Dev\IdeaProjects\social-media-api)
+2023-06-03 07:49:12,435 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0, Spring v6.0.9
+2023-06-03 07:49:12,436 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-06-03 07:49:13,138 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-03 07:49:13,215 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 69 ms. Found 7 JPA repository interfaces.
+2023-06-03 07:49:15,225 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-03 07:49:15,304 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-03 07:49:15,308 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-06-03 07:49:15,505 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 07:49:15,518 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-03 07:49:15,540 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-06-03 07:49:15,769 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6c13019c
+2023-06-03 07:49:15,771 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-06-03 07:49:15,833 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@5981f2c6
+2023-06-03 07:49:16,227 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 07:49:16,925 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-03 07:49:17,103 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 07:49:17,603 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-03 07:49:17,994 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@f14d079, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@d0456ad, org.springframework.security.web.context.SecurityContextHolderFilter@16c3388e, org.springframework.security.web.header.HeaderWriterFilter@d3929ba, org.springframework.security.web.authentication.logout.LogoutFilter@484b187c, ru.matvey.socialmediaapi.config.JwtAuthenticationFilter@4fe3199d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4d82ded2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@655875bb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@12dd3501, org.springframework.security.web.session.SessionManagementFilter@7b6c3b37, org.springframework.security.web.access.ExceptionTranslationFilter@3f3abe67, org.springframework.security.web.access.intercept.AuthorizationFilter@46374b8]
+2023-06-03 07:49:18,397 INFO [main] org.springframework.boot.StartupInfoLogger: Started PostServiceTest in 6.176 seconds (process running for 7.457)
+2023-06-03 07:49:18,476 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 07:49:18,476 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.nio.file.FileAlreadyExistsException: E:\Dev\IdeaProjects\social-media-api\files\null
+2023-06-03 07:49:18,553 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 07:49:18,555 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-06-03 07:49:18,560 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-06-03 08:11:03,628 WARN [main] ru.matvey.socialmediaapi.service.UserService: java.lang.NullPointerException: Cannot invoke "org.springframework.security.crypto.password.PasswordEncoder.encode(java.lang.CharSequence)" because "this.passwordEncoder" is null
+2023-06-03 08:12:02,157 INFO [main] ru.matvey.socialmediaapi.service.UserService: new user register User(id=null, username=user@example.com, email=user@example.com, password=null, role=_USER, friends=null, subscriptions=null)
+2023-06-03 08:12:02,166 WARN [main] ru.matvey.socialmediaapi.service.UserService: java.lang.NullPointerException: Cannot invoke "ru.matvey.socialmediaapi.service.JwtService.generateToken(org.springframework.security.core.userdetails.UserDetails)" because "this.jwtService" is null
+2023-06-03 08:12:51,994 INFO [main] ru.matvey.socialmediaapi.service.UserService: new user register User(id=null, username=user@example.com, email=user@example.com, password=null, role=_USER, friends=null, subscriptions=null)
+2023-06-03 08:12:52,008 INFO [main] ru.matvey.socialmediaapi.service.UserService: userDto UserDto(id=null, email=user@example.com, name=user@example.com) saved
+2023-06-03 08:13:35,017 INFO [main] ru.matvey.socialmediaapi.service.UserService: new user register User(id=null, username=user@example.com, email=user@example.com, password=null, role=_USER, friends=null, subscriptions=null)
+2023-06-03 08:13:35,031 INFO [main] ru.matvey.socialmediaapi.service.UserService: userDto UserDto(id=null, email=user@example.com, name=user@example.com) saved
+2023-06-03 08:15:56,304 INFO [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils: Could not detect default configuration classes for test class [ru.matvey.socialmediaapi.service.PostServiceTest]: PostServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-03 08:15:56,419 INFO [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper: Found @SpringBootConfiguration ru.matvey.socialmediaapi.SocialMediaApiApplication for test class ru.matvey.socialmediaapi.service.PostServiceTest
+2023-06-03 08:15:56,826 INFO [main] org.springframework.boot.StartupInfoLogger: Starting PostServiceTest using Java 19.0.2 with PID 21848 (started by matvey in E:\Dev\IdeaProjects\social-media-api)
+2023-06-03 08:15:56,827 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0, Spring v6.0.9
+2023-06-03 08:15:56,827 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-06-03 08:15:57,568 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-03 08:15:57,648 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 71 ms. Found 7 JPA repository interfaces.
+2023-06-03 08:15:58,245 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-03 08:15:58,323 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-03 08:15:58,326 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-06-03 08:15:58,512 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 08:15:58,692 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-03 08:15:58,714 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-06-03 08:15:58,941 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@32dcfeea
+2023-06-03 08:15:58,944 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-06-03 08:15:59,009 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@15ac02d5
+2023-06-03 08:15:59,341 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 08:16:00,138 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-03 08:16:00,314 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 08:16:00,943 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-03 08:16:01,344 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6de2344a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@577dac16, org.springframework.security.web.context.SecurityContextHolderFilter@47f8374, org.springframework.security.web.header.HeaderWriterFilter@1c0a143, org.springframework.security.web.authentication.logout.LogoutFilter@28ffa527, ru.matvey.socialmediaapi.config.JwtAuthenticationFilter@24ac87a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@b8c6406, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6bed434d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@18ed9480, org.springframework.security.web.session.SessionManagementFilter@2821da0a, org.springframework.security.web.access.ExceptionTranslationFilter@76641439, org.springframework.security.web.access.intercept.AuthorizationFilter@2723b0d0]
+2023-06-03 08:16:01,728 INFO [main] org.springframework.boot.StartupInfoLogger: Started PostServiceTest in 5.147 seconds (process running for 6.402)
+2023-06-03 08:16:02,932 INFO [main] ru.matvey.socialmediaapi.service.UserService: new user register User(id=null, username=user@example.com, email=user@example.com, password=null, role=_USER, friends=null, subscriptions=null)
+2023-06-03 08:16:02,943 INFO [main] ru.matvey.socialmediaapi.service.UserService: userDto UserDto(id=null, email=user@example.com, name=user@example.com) saved
+2023-06-03 08:16:02,998 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 08:16:03,002 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-06-03 08:16:03,007 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-06-03 08:21:17,838 INFO [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils: Could not detect default configuration classes for test class [ru.matvey.socialmediaapi.service.PostServiceTest]: PostServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-03 08:21:17,958 INFO [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper: Found @SpringBootConfiguration ru.matvey.socialmediaapi.SocialMediaApiApplication for test class ru.matvey.socialmediaapi.service.PostServiceTest
+2023-06-03 08:21:18,370 INFO [main] org.springframework.boot.StartupInfoLogger: Starting PostServiceTest using Java 19.0.2 with PID 1424 (started by matvey in E:\Dev\IdeaProjects\social-media-api)
+2023-06-03 08:21:18,370 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0, Spring v6.0.9
+2023-06-03 08:21:18,371 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-06-03 08:21:19,091 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-03 08:21:19,171 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 71 ms. Found 7 JPA repository interfaces.
+2023-06-03 08:21:19,761 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-03 08:21:19,832 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-03 08:21:19,834 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-06-03 08:21:20,022 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 08:21:20,208 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-03 08:21:20,230 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-06-03 08:21:20,452 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7e27f603
+2023-06-03 08:21:20,454 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-06-03 08:21:20,508 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@1d944fc0
+2023-06-03 08:21:20,835 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 08:21:21,613 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-03 08:21:21,781 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 08:21:22,388 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-03 08:21:22,722 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1f4de96e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@46c61d1, org.springframework.security.web.context.SecurityContextHolderFilter@3b38f032, org.springframework.security.web.header.HeaderWriterFilter@d164938, org.springframework.security.web.authentication.logout.LogoutFilter@2821da0a, ru.matvey.socialmediaapi.config.JwtAuthenticationFilter@2aa65672, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7d76d72a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6fd07a56, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c194c4e, org.springframework.security.web.session.SessionManagementFilter@65293ca5, org.springframework.security.web.access.ExceptionTranslationFilter@5605a59b, org.springframework.security.web.access.intercept.AuthorizationFilter@13f10967]
+2023-06-03 08:21:23,082 INFO [main] org.springframework.boot.StartupInfoLogger: Started PostServiceTest in 4.962 seconds (process running for 6.228)
+2023-06-03 08:21:24,159 INFO [main] ru.matvey.socialmediaapi.service.UserService: new user register User(id=null, username=user@example.com, email=user@example.com, password=null, role=_USER, friends=null, subscriptions=null)
+2023-06-03 08:21:24,171 INFO [main] ru.matvey.socialmediaapi.service.UserService: userDto UserDto(id=null, email=user@example.com, name=user@example.com) saved
+2023-06-03 08:21:24,224 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 08:21:24,228 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-06-03 08:21:24,235 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-06-03 08:24:42,514 INFO [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils: Could not detect default configuration classes for test class [ru.matvey.socialmediaapi.service.PostServiceTest]: PostServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-03 08:24:42,639 INFO [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper: Found @SpringBootConfiguration ru.matvey.socialmediaapi.SocialMediaApiApplication for test class ru.matvey.socialmediaapi.service.PostServiceTest
+2023-06-03 08:24:43,030 INFO [main] org.springframework.boot.StartupInfoLogger: Starting PostServiceTest using Java 19.0.2 with PID 19780 (started by matvey in E:\Dev\IdeaProjects\social-media-api)
+2023-06-03 08:24:43,031 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0, Spring v6.0.9
+2023-06-03 08:24:43,031 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-06-03 08:24:43,753 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-03 08:24:43,832 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 71 ms. Found 7 JPA repository interfaces.
+2023-06-03 08:24:44,392 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-03 08:24:44,470 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-03 08:24:44,474 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-06-03 08:24:44,655 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 08:24:44,836 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-03 08:24:44,858 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-06-03 08:24:45,079 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@78318ac2
+2023-06-03 08:24:45,082 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-06-03 08:24:45,142 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@28831d69
+2023-06-03 08:24:45,564 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 08:24:46,395 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-03 08:24:46,575 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 08:24:47,248 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-03 08:24:47,602 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3829306d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@28effa3f, org.springframework.security.web.context.SecurityContextHolderFilter@53b83897, org.springframework.security.web.header.HeaderWriterFilter@6c399d4, org.springframework.security.web.authentication.logout.LogoutFilter@ab5dde4, ru.matvey.socialmediaapi.config.JwtAuthenticationFilter@24888d8b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@372e972d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@463746eb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1d1da00b, org.springframework.security.web.session.SessionManagementFilter@61e34bec, org.springframework.security.web.access.ExceptionTranslationFilter@4def900a, org.springframework.security.web.access.intercept.AuthorizationFilter@53086bdc]
+2023-06-03 08:24:47,953 INFO [main] org.springframework.boot.StartupInfoLogger: Started PostServiceTest in 5.146 seconds (process running for 6.454)
+2023-06-03 08:24:49,050 INFO [main] ru.matvey.socialmediaapi.service.UserService: new user register User(id=null, username=user@example.com, email=user@example.com, password=null, role=_USER, friends=null, subscriptions=null)
+2023-06-03 08:24:49,063 INFO [main] ru.matvey.socialmediaapi.service.UserService: userDto UserDto(id=null, email=user@example.com, name=user@example.com) saved
+2023-06-03 08:24:49,121 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 08:24:49,125 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-06-03 08:24:49,132 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-06-03 08:37:10,652 INFO [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils: Could not detect default configuration classes for test class [ru.matvey.socialmediaapi.service.PostServiceTest]: PostServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-03 08:37:10,772 INFO [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper: Found @SpringBootConfiguration ru.matvey.socialmediaapi.SocialMediaApiApplication for test class ru.matvey.socialmediaapi.service.PostServiceTest
+2023-06-03 08:37:11,149 INFO [main] org.springframework.boot.StartupInfoLogger: Starting PostServiceTest using Java 19.0.2 with PID 22152 (started by matvey in E:\Dev\IdeaProjects\social-media-api)
+2023-06-03 08:37:11,150 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0, Spring v6.0.9
+2023-06-03 08:37:11,151 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-06-03 08:37:11,874 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-03 08:37:11,950 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 68 ms. Found 7 JPA repository interfaces.
+2023-06-03 08:37:12,520 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-03 08:37:12,605 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-03 08:37:12,608 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-06-03 08:37:12,793 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 08:37:12,970 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-03 08:37:12,992 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-06-03 08:37:13,325 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@106cd9c8
+2023-06-03 08:37:13,328 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-06-03 08:37:13,385 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@2499b971
+2023-06-03 08:37:13,734 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 08:37:14,514 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-03 08:37:14,679 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 08:37:15,328 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-03 08:37:15,697 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@53086bdc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@254210b1, org.springframework.security.web.context.SecurityContextHolderFilter@61e34bec, org.springframework.security.web.header.HeaderWriterFilter@1a1dd8eb, org.springframework.security.web.authentication.logout.LogoutFilter@77e1b84c, ru.matvey.socialmediaapi.config.JwtAuthenticationFilter@493250cf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@53945f9c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@53b83897, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@600a1270, org.springframework.security.web.session.SessionManagementFilter@40625ac6, org.springframework.security.web.access.ExceptionTranslationFilter@3ba50851, org.springframework.security.web.access.intercept.AuthorizationFilter@641255d1]
+2023-06-03 08:37:16,054 INFO [main] org.springframework.boot.StartupInfoLogger: Started PostServiceTest in 5.13 seconds (process running for 6.423)
+2023-06-03 08:37:17,140 INFO [main] ru.matvey.socialmediaapi.service.UserService: new user register User(id=null, username=user@example.com, email=user@example.com, password=null, role=_USER, friends=null, subscriptions=null)
+2023-06-03 08:37:17,152 INFO [main] ru.matvey.socialmediaapi.service.UserService: userDto UserDto(id=null, email=user@example.com, name=user@example.com) saved
+2023-06-03 08:37:17,158 WARN [main] ru.matvey.socialmediaapi.service.UserService: user not found
+2023-06-03 08:37:17,206 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 08:37:17,210 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-06-03 08:37:17,216 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-06-03 08:38:36,853 INFO [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils: Could not detect default configuration classes for test class [ru.matvey.socialmediaapi.service.PostServiceTest]: PostServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-03 08:38:36,980 INFO [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper: Found @SpringBootConfiguration ru.matvey.socialmediaapi.SocialMediaApiApplication for test class ru.matvey.socialmediaapi.service.PostServiceTest
+2023-06-03 08:38:37,361 INFO [main] org.springframework.boot.StartupInfoLogger: Starting PostServiceTest using Java 19.0.2 with PID 14124 (started by matvey in E:\Dev\IdeaProjects\social-media-api)
+2023-06-03 08:38:37,362 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0, Spring v6.0.9
+2023-06-03 08:38:37,363 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-06-03 08:38:38,081 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-03 08:38:38,160 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 70 ms. Found 7 JPA repository interfaces.
+2023-06-03 08:38:39,925 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-03 08:38:39,997 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-03 08:38:40,000 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-06-03 08:38:40,180 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 08:38:40,193 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-03 08:38:40,217 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-06-03 08:38:40,471 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1feb586d
+2023-06-03 08:38:40,473 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-06-03 08:38:40,535 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@6fc7e828
+2023-06-03 08:38:40,899 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 08:38:41,591 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-03 08:38:41,782 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 08:38:42,450 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-03 08:38:42,792 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@369d624d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@54644470, org.springframework.security.web.context.SecurityContextHolderFilter@4d20cbb5, org.springframework.security.web.header.HeaderWriterFilter@2257590f, org.springframework.security.web.authentication.logout.LogoutFilter@75c095a5, ru.matvey.socialmediaapi.config.JwtAuthenticationFilter@5364b481, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3c3357c7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@506d7fed, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@a6924ad, org.springframework.security.web.session.SessionManagementFilter@f36c8b1, org.springframework.security.web.access.ExceptionTranslationFilter@735dc133, org.springframework.security.web.access.intercept.AuthorizationFilter@6e818345]
+2023-06-03 08:38:43,158 INFO [main] org.springframework.boot.StartupInfoLogger: Started PostServiceTest in 6.008 seconds (process running for 7.271)
+2023-06-03 08:38:43,573 INFO [main] ru.matvey.socialmediaapi.service.UserService: new user register User(id=null, username=user@example.com, email=user@example.com, password=null, role=_USER, friends=null, subscriptions=null)
+2023-06-03 08:38:43,586 INFO [main] ru.matvey.socialmediaapi.service.UserService: userDto UserDto(id=null, email=user@example.com, name=user@example.com) saved
+2023-06-03 08:38:43,595 WARN [main] ru.matvey.socialmediaapi.service.UserService: user not found
+2023-06-03 08:38:43,633 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 08:38:43,636 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-06-03 08:38:43,640 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-06-03 08:41:31,316 INFO [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils: Could not detect default configuration classes for test class [ru.matvey.socialmediaapi.service.PostServiceTest]: PostServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-03 08:41:31,429 INFO [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper: Found @SpringBootConfiguration ru.matvey.socialmediaapi.SocialMediaApiApplication for test class ru.matvey.socialmediaapi.service.PostServiceTest
+2023-06-03 08:41:31,838 INFO [main] org.springframework.boot.StartupInfoLogger: Starting PostServiceTest using Java 19.0.2 with PID 10376 (started by matvey in E:\Dev\IdeaProjects\social-media-api)
+2023-06-03 08:41:31,839 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0, Spring v6.0.9
+2023-06-03 08:41:31,840 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-06-03 08:41:32,556 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-03 08:41:32,634 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 68 ms. Found 7 JPA repository interfaces.
+2023-06-03 08:41:33,196 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-03 08:41:33,269 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-03 08:41:33,271 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-06-03 08:41:33,456 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 08:41:33,628 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-03 08:41:33,662 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-06-03 08:41:33,877 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@113eed88
+2023-06-03 08:41:33,879 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-06-03 08:41:33,945 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@994544
+2023-06-03 08:41:34,300 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 08:41:35,146 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-03 08:41:35,324 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 08:41:35,965 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-03 08:41:36,346 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@77e1b84c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@12d8e6b6, org.springframework.security.web.context.SecurityContextHolderFilter@433362e0, org.springframework.security.web.header.HeaderWriterFilter@6bed434d, org.springframework.security.web.authentication.logout.LogoutFilter@70c99e13, ru.matvey.socialmediaapi.config.JwtAuthenticationFilter@6e069ca9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@58cd6088, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@44a7661d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6d911985, org.springframework.security.web.session.SessionManagementFilter@5e1bfe66, org.springframework.security.web.access.ExceptionTranslationFilter@22a8e87b, org.springframework.security.web.access.intercept.AuthorizationFilter@27b84c9a]
+2023-06-03 08:41:36,729 INFO [main] org.springframework.boot.StartupInfoLogger: Started PostServiceTest in 5.137 seconds (process running for 6.372)
+2023-06-03 08:41:37,830 INFO [main] ru.matvey.socialmediaapi.service.UserService: new user register User(id=null, username=user@example.com, email=user@example.com, password=null, role=_USER, friends=null, subscriptions=null)
+2023-06-03 08:41:37,841 INFO [main] ru.matvey.socialmediaapi.service.UserService: userDto UserDto(id=null, email=user@example.com, name=user@example.com) saved
+2023-06-03 08:41:37,849 WARN [main] ru.matvey.socialmediaapi.service.UserService: user not found
+2023-06-03 08:41:37,897 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 08:41:37,901 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-06-03 08:41:37,908 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-06-03 08:41:48,329 INFO [main] ru.matvey.socialmediaapi.service.UserService: new user register User(id=null, username=user@example.com, email=user@example.com, password=null, role=_USER, friends=null, subscriptions=null)
+2023-06-03 08:41:48,340 INFO [main] ru.matvey.socialmediaapi.service.UserService: userDto UserDto(id=null, email=user@example.com, name=user@example.com) saved
+2023-06-03 08:41:48,354 WARN [main] ru.matvey.socialmediaapi.service.UserService: user not found
+2023-06-03 08:42:34,856 INFO [main] ru.matvey.socialmediaapi.service.UserService: new user register User(id=null, username=user@example.com, email=user@example.com, password=null, role=_USER, friends=null, subscriptions=null)
+2023-06-03 08:42:34,868 INFO [main] ru.matvey.socialmediaapi.service.UserService: userDto UserDto(id=null, email=user@example.com, name=user@example.com) saved
+2023-06-03 08:42:34,886 WARN [main] ru.matvey.socialmediaapi.service.UserService: user not found
+2023-06-03 08:44:12,597 INFO [main] ru.matvey.socialmediaapi.service.UserService: new user register User(id=null, username=user@example.com, email=user@example.com, password=null, role=_USER, friends=null, subscriptions=null)
+2023-06-03 08:44:12,609 INFO [main] ru.matvey.socialmediaapi.service.UserService: userDto UserDto(id=null, email=user@example.com, name=user@example.com) saved
+2023-06-03 08:44:12,635 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.lang.NullPointerException: Cannot invoke "org.springframework.security.core.Authentication.getName()" because "auth" is null
+2023-06-03 08:44:43,752 INFO [main] ru.matvey.socialmediaapi.service.UserService: new user register User(id=null, username=user@example.com, email=user@example.com, password=null, role=_USER, friends=null, subscriptions=null)
+2023-06-03 08:44:43,765 INFO [main] ru.matvey.socialmediaapi.service.UserService: userDto UserDto(id=null, email=user@example.com, name=user@example.com) saved
+2023-06-03 08:44:43,785 WARN [main] ru.matvey.socialmediaapi.service.UserService: user not found
+2023-06-03 08:48:09,820 INFO [main] ru.matvey.socialmediaapi.service.UserService: new user register User(id=null, username=user@example.com, email=user@example.com, password=null, role=_USER, friends=null, subscriptions=null)
+2023-06-03 08:48:09,833 INFO [main] ru.matvey.socialmediaapi.service.UserService: userDto UserDto(id=null, email=user@example.com, name=user@example.com) saved
+2023-06-03 08:48:09,851 WARN [main] ru.matvey.socialmediaapi.service.UserService: user user@example.com not found
+2023-06-03 09:12:03,476 WARN [main] ru.matvey.socialmediaapi.service.UserService: user user@example.com not found
+2023-06-03 09:12:33,993 INFO [main] ru.matvey.socialmediaapi.service.UserService: new user register User(id=null, username=user@example.com, email=user@example.com, password=null, role=_USER, friends=null, subscriptions=null)
+2023-06-03 09:12:34,009 INFO [main] ru.matvey.socialmediaapi.service.UserService: userDto UserDto(id=null, email=user@example.com, name=user@example.com) saved
+2023-06-03 09:12:34,028 WARN [main] ru.matvey.socialmediaapi.service.UserService: user user@example.com not found
+2023-06-03 09:13:14,905 INFO [main] ru.matvey.socialmediaapi.service.UserService: new user register User(id=null, username=user@example.com, email=user@example.com, password=null, role=_USER, friends=null, subscriptions=null)
+2023-06-03 09:13:14,917 INFO [main] ru.matvey.socialmediaapi.service.UserService: userDto UserDto(id=null, email=user@example.com, name=user@example.com) saved
+2023-06-03 09:13:14,935 WARN [main] ru.matvey.socialmediaapi.service.UserService: user user@example.com not found
+2023-06-03 09:18:10,138 INFO [main] ru.matvey.socialmediaapi.service.UserService: new user register User(id=null, username=user@example.com, email=user@example.com, password=null, role=_USER, friends=null, subscriptions=null)
+2023-06-03 09:18:10,152 INFO [main] ru.matvey.socialmediaapi.service.UserService: userDto UserDto(id=null, email=user@example.com, name=user@example.com) saved
+2023-06-03 09:18:10,171 WARN [main] ru.matvey.socialmediaapi.service.UserService: user user@example.com not found
+2023-06-03 09:19:44,035 INFO [main] ru.matvey.socialmediaapi.service.UserService: new user register User(id=null, username=user@example.com, email=user@example.com, password=null, role=_USER, friends=null, subscriptions=null)
+2023-06-03 09:19:44,048 INFO [main] ru.matvey.socialmediaapi.service.UserService: userDto UserDto(id=null, email=user@example.com, name=user@example.com) saved
+2023-06-03 09:57:25,566 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 09:57:25,570 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.nio.file.FileAlreadyExistsException: E:\Dev\IdeaProjects\social-media-api\files\null
+2023-06-03 09:57:39,317 WARN [main] ru.matvey.socialmediaapi.service.UserService: user user@example.com not found
+2023-06-03 09:57:43,237 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 09:57:43,242 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.nio.file.FileAlreadyExistsException: E:\Dev\IdeaProjects\social-media-api\files\null
+2023-06-03 09:58:31,763 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 09:58:31,768 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.nio.file.FileAlreadyExistsException: E:\Dev\IdeaProjects\social-media-api\files\null
+2023-06-03 09:59:20,761 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 10:12:39,423 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 10:26:32,166 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.lang.NullPointerException: Cannot invoke "org.springframework.data.domain.Page.getContent()" because "page" is null
+2023-06-03 10:27:32,581 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 10:27:32,598 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.lang.NullPointerException: Cannot invoke "org.springframework.data.domain.Page.getContent()" because "page" is null
+2023-06-03 10:28:19,890 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 10:28:19,894 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.nio.file.FileAlreadyExistsException: nullnull
+2023-06-03 10:28:43,014 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 10:28:43,018 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.nio.file.FileAlreadyExistsException: nullnull
+2023-06-03 15:22:55,679 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 15:23:27,341 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 15:23:27,361 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.lang.NullPointerException: Cannot invoke "org.springframework.data.domain.Page.getContent()" because "page" is null
+2023-06-03 15:25:05,973 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.lang.NullPointerException: Cannot invoke "org.springframework.data.domain.Page.getContent()" because "page" is null
+2023-06-03 15:25:34,020 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 15:26:43,337 INFO [main] org.springframework.boot.StartupInfoLogger: Starting SocialMediaApiApplication using Java 19.0.2 with PID 13404 (E:\Dev\IdeaProjects\social-media-api\target\classes started by matvey in E:\Dev\IdeaProjects\social-media-api)
+2023-06-03 15:26:43,339 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0, Spring v6.0.9
+2023-06-03 15:26:43,340 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-06-03 15:26:43,877 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-03 15:26:43,941 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 58 ms. Found 7 JPA repository interfaces.
+2023-06-03 15:26:44,419 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2023-06-03 15:26:44,426 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-03 15:26:44,427 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-06-03 15:26:44,427 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-03 15:26:44,504 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-06-03 15:26:44,506 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1128 ms
+2023-06-03 15:26:44,617 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-03 15:26:44,655 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-03 15:26:44,658 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-06-03 15:26:44,757 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 15:26:44,836 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-03 15:26:44,846 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-06-03 15:26:44,975 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3a0896b3
+2023-06-03 15:26:44,977 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-06-03 15:26:45,015 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@6d7740f0
+2023-06-03 15:26:45,222 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 15:26:45,766 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-03 15:26:45,924 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 15:26:46,200 DEBUG [main] org.springframework.web.filter.GenericFilterBean: Filter 'jwtAuthenticationFilter' configured for use
+2023-06-03 15:26:46,424 WARN [main] org.springframework.context.support.AbstractApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'postController' defined in file [E:\Dev\IdeaProjects\social-media-api\target\classes\ru\matvey\socialmediaapi\controller\PostController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'postService' defined in file [E:\Dev\IdeaProjects\social-media-api\target\classes\ru\matvey\socialmediaapi\service\PostService.class]: Unsatisfied dependency expressed through constructor parameter 3: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-06-03 15:26:46,424 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 15:26:46,426 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-06-03 15:26:46,429 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-06-03 15:26:46,431 INFO [main] org.apache.juli.logging.DirectJDKLog: Stopping service [Tomcat]
+2023-06-03 15:26:46,444 INFO [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger: 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-06-03 15:26:46,465 ERROR [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter: 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 3 of constructor in ru.matvey.socialmediaapi.service.PostService required a bean of type 'java.lang.String' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'java.lang.String' in your configuration.
+
+2023-06-03 15:27:55,222 INFO [main] org.springframework.boot.StartupInfoLogger: Starting SocialMediaApiApplication using Java 19.0.2 with PID 20596 (E:\Dev\IdeaProjects\social-media-api\target\classes started by matvey in E:\Dev\IdeaProjects\social-media-api)
+2023-06-03 15:27:55,224 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0, Spring v6.0.9
+2023-06-03 15:27:55,225 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-06-03 15:27:55,763 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-03 15:27:55,827 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 58 ms. Found 7 JPA repository interfaces.
+2023-06-03 15:27:56,302 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2023-06-03 15:27:56,309 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-03 15:27:56,310 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-06-03 15:27:56,310 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-03 15:27:56,385 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-06-03 15:27:56,385 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1122 ms
+2023-06-03 15:27:56,505 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-03 15:27:56,542 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-03 15:27:56,544 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-06-03 15:27:56,642 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 15:27:56,724 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-03 15:27:56,734 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-06-03 15:27:56,861 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4601047
+2023-06-03 15:27:56,862 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-06-03 15:27:56,901 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@cfd5cd2
+2023-06-03 15:27:57,115 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 15:27:57,655 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-03 15:27:57,819 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 15:27:58,095 DEBUG [main] org.springframework.web.filter.GenericFilterBean: Filter 'jwtAuthenticationFilter' configured for use
+2023-06-03 15:27:58,308 WARN [main] org.springframework.context.support.AbstractApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'postController' defined in file [E:\Dev\IdeaProjects\social-media-api\target\classes\ru\matvey\socialmediaapi\controller\PostController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'postService' defined in file [E:\Dev\IdeaProjects\social-media-api\target\classes\ru\matvey\socialmediaapi\service\PostService.class]: Unsatisfied dependency expressed through constructor parameter 3: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-06-03 15:27:58,309 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 15:27:58,311 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-06-03 15:27:58,314 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-06-03 15:27:58,318 INFO [main] org.apache.juli.logging.DirectJDKLog: Stopping service [Tomcat]
+2023-06-03 15:27:58,330 INFO [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger: 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-06-03 15:27:58,350 ERROR [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter: 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 3 of constructor in ru.matvey.socialmediaapi.service.PostService required a bean of type 'java.lang.String' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'java.lang.String' in your configuration.
+
+2023-06-03 15:31:08,372 INFO [main] org.springframework.boot.StartupInfoLogger: Starting SocialMediaApiApplication using Java 19.0.2 with PID 3240 (E:\Dev\IdeaProjects\social-media-api\target\classes started by matvey in E:\Dev\IdeaProjects\social-media-api)
+2023-06-03 15:31:08,374 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0, Spring v6.0.9
+2023-06-03 15:31:08,375 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-06-03 15:31:08,915 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-03 15:31:08,980 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 59 ms. Found 7 JPA repository interfaces.
+2023-06-03 15:31:09,443 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2023-06-03 15:31:09,450 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-03 15:31:09,451 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-06-03 15:31:09,451 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-03 15:31:09,565 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-06-03 15:31:09,565 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1153 ms
+2023-06-03 15:31:09,677 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-03 15:31:09,714 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-03 15:31:09,717 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-06-03 15:31:09,814 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 15:31:09,892 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-03 15:31:09,901 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-06-03 15:31:10,028 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@27358a19
+2023-06-03 15:31:10,029 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-06-03 15:31:10,068 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@5b322873
+2023-06-03 15:31:10,283 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 15:31:10,837 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-03 15:31:10,994 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 15:31:11,265 DEBUG [main] org.springframework.web.filter.GenericFilterBean: Filter 'jwtAuthenticationFilter' configured for use
+2023-06-03 15:31:11,509 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-03 15:31:11,772 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2e3b4394, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@70ccb3bf, org.springframework.security.web.context.SecurityContextHolderFilter@49c37918, org.springframework.security.web.header.HeaderWriterFilter@3a5b1af7, org.springframework.security.web.authentication.logout.LogoutFilter@587bf2e1, ru.matvey.socialmediaapi.config.JwtAuthenticationFilter@435a2c7d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@347c5721, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4d22265c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@10ffe32f, org.springframework.security.web.session.SessionManagementFilter@7a6e0f3c, org.springframework.security.web.access.ExceptionTranslationFilter@8942ece, org.springframework.security.web.access.intercept.AuthorizationFilter@477d6f66]
+2023-06-03 15:31:11,966 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-8080"]
+2023-06-03 15:31:11,981 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-03 15:31:11,989 INFO [main] org.springframework.boot.StartupInfoLogger: Started SocialMediaApiApplication in 3.889 seconds (process running for 4.586)
+2023-06-03 15:31:29,270 INFO [http-nio-8080-exec-1] org.apache.juli.logging.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-03 15:31:29,271 INFO [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2023-06-03 15:31:29,272 INFO [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet: Completed initialization in 1 ms
+2023-06-03 15:31:29,659 INFO [http-nio-8080-exec-1] ru.matvey.socialmediaapi.service.UserService: User user has authorized
+2023-06-03 15:31:57,575 INFO [http-nio-8080-exec-2] ru.matvey.socialmediaapi.service.PostService: Post 102 created
+2023-06-03 15:31:57,576 WARN [http-nio-8080-exec-2] ru.matvey.socialmediaapi.service.PostService: java.lang.NullPointerException: Cannot invoke "org.springframework.core.env.Environment.getProperty(String)" because "this.env" is null
+2023-06-03 15:32:37,388 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 15:32:37,390 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-06-03 15:32:37,393 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-06-03 15:32:42,095 INFO [main] org.springframework.boot.StartupInfoLogger: Starting SocialMediaApiApplication using Java 19.0.2 with PID 1660 (E:\Dev\IdeaProjects\social-media-api\target\classes started by matvey in E:\Dev\IdeaProjects\social-media-api)
+2023-06-03 15:32:42,097 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0, Spring v6.0.9
+2023-06-03 15:32:42,098 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-06-03 15:32:42,626 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-03 15:32:42,690 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 58 ms. Found 7 JPA repository interfaces.
+2023-06-03 15:32:43,145 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2023-06-03 15:32:43,152 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-03 15:32:43,153 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-06-03 15:32:43,153 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-03 15:32:43,224 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-06-03 15:32:43,225 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1090 ms
+2023-06-03 15:32:43,341 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-03 15:32:43,377 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-03 15:32:43,379 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-06-03 15:32:43,477 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 15:32:43,554 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-03 15:32:43,563 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-06-03 15:32:43,689 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4601047
+2023-06-03 15:32:43,691 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-06-03 15:32:43,729 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@cfd5cd2
+2023-06-03 15:32:43,932 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 15:32:44,474 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-03 15:32:44,632 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 15:32:44,901 DEBUG [main] org.springframework.web.filter.GenericFilterBean: Filter 'jwtAuthenticationFilter' configured for use
+2023-06-03 15:32:45,151 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-03 15:32:45,412 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3ce2c5f6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@20a3321a, org.springframework.security.web.context.SecurityContextHolderFilter@1dbfbd94, org.springframework.security.web.header.HeaderWriterFilter@1715193f, org.springframework.security.web.authentication.logout.LogoutFilter@79d3c655, ru.matvey.socialmediaapi.config.JwtAuthenticationFilter@7607340f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e3b4394, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70ccb3bf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@744673f3, org.springframework.security.web.session.SessionManagementFilter@5408fca1, org.springframework.security.web.access.ExceptionTranslationFilter@769f6023, org.springframework.security.web.access.intercept.AuthorizationFilter@e2696e8]
+2023-06-03 15:32:45,605 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-8080"]
+2023-06-03 15:32:45,619 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-03 15:32:45,628 INFO [main] org.springframework.boot.StartupInfoLogger: Started SocialMediaApiApplication in 3.814 seconds (process running for 4.501)
+2023-06-03 15:33:01,597 INFO [http-nio-8080-exec-2] org.apache.juli.logging.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-03 15:33:01,598 INFO [http-nio-8080-exec-2] org.springframework.web.servlet.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2023-06-03 15:33:01,599 INFO [http-nio-8080-exec-2] org.springframework.web.servlet.FrameworkServlet: Completed initialization in 1 ms
+2023-06-03 15:33:01,976 INFO [http-nio-8080-exec-2] ru.matvey.socialmediaapi.service.UserService: User user has authorized
+2023-06-03 15:33:13,551 INFO [http-nio-8080-exec-3] ru.matvey.socialmediaapi.service.PostService: Post 152 created
+2023-06-03 15:33:13,552 WARN [http-nio-8080-exec-3] ru.matvey.socialmediaapi.service.PostService: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "E:\Dev\IdeaProjects\social-media-api\files\"152
+2023-06-03 15:33:42,137 INFO [http-nio-8080-exec-5] ru.matvey.socialmediaapi.service.PostService: Post 153 created
+2023-06-03 15:33:42,137 WARN [http-nio-8080-exec-5] ru.matvey.socialmediaapi.service.PostService: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "E:\Dev\IdeaProjects\social-media-api\files\"153
+2023-06-03 15:34:59,822 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 15:34:59,824 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-06-03 15:34:59,827 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-06-03 15:35:02,448 INFO [main] org.springframework.boot.StartupInfoLogger: Starting SocialMediaApiApplication using Java 19.0.2 with PID 12100 (E:\Dev\IdeaProjects\social-media-api\target\classes started by matvey in E:\Dev\IdeaProjects\social-media-api)
+2023-06-03 15:35:02,450 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0, Spring v6.0.9
+2023-06-03 15:35:02,451 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-06-03 15:35:02,984 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-03 15:35:03,048 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 58 ms. Found 7 JPA repository interfaces.
+2023-06-03 15:35:03,506 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2023-06-03 15:35:03,513 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-03 15:35:03,513 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-06-03 15:35:03,514 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-03 15:35:03,587 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-06-03 15:35:03,588 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1101 ms
+2023-06-03 15:35:03,703 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-03 15:35:03,740 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-03 15:35:03,742 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-06-03 15:35:03,841 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 15:35:03,920 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-03 15:35:03,930 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-06-03 15:35:04,061 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4601047
+2023-06-03 15:35:04,063 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-06-03 15:35:04,101 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@cfd5cd2
+2023-06-03 15:35:04,309 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 15:35:04,856 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-03 15:35:05,016 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 15:35:05,287 DEBUG [main] org.springframework.web.filter.GenericFilterBean: Filter 'jwtAuthenticationFilter' configured for use
+2023-06-03 15:35:05,534 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-03 15:35:05,796 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@337e573b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4d24ab25, org.springframework.security.web.context.SecurityContextHolderFilter@5b8b9b2d, org.springframework.security.web.header.HeaderWriterFilter@57df93c1, org.springframework.security.web.authentication.logout.LogoutFilter@3ccc4ca0, ru.matvey.socialmediaapi.config.JwtAuthenticationFilter@7607340f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2178d296, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@58c80957, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@145f1f97, org.springframework.security.web.session.SessionManagementFilter@6158113e, org.springframework.security.web.access.ExceptionTranslationFilter@7e1953f7, org.springframework.security.web.access.intercept.AuthorizationFilter@67d55a46]
+2023-06-03 15:35:06,010 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-8080"]
+2023-06-03 15:35:06,026 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-03 15:35:06,034 INFO [main] org.springframework.boot.StartupInfoLogger: Started SocialMediaApiApplication in 3.863 seconds (process running for 4.562)
+2023-06-03 15:35:09,637 INFO [http-nio-8080-exec-1] org.apache.juli.logging.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-03 15:35:09,637 INFO [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2023-06-03 15:35:09,638 INFO [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet: Completed initialization in 1 ms
+2023-06-03 15:35:09,932 INFO [http-nio-8080-exec-1] ru.matvey.socialmediaapi.service.PostService: Post 202 created
+2023-06-03 15:35:09,933 WARN [http-nio-8080-exec-1] ru.matvey.socialmediaapi.service.PostService: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "E:/Dev/IdeaProjects/social-media-api/files/"202
+2023-06-03 15:35:21,625 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 15:35:21,627 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-06-03 15:35:21,629 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-06-03 15:35:24,207 INFO [main] org.springframework.boot.StartupInfoLogger: Starting SocialMediaApiApplication using Java 19.0.2 with PID 444 (E:\Dev\IdeaProjects\social-media-api\target\classes started by matvey in E:\Dev\IdeaProjects\social-media-api)
+2023-06-03 15:35:24,208 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0, Spring v6.0.9
+2023-06-03 15:35:24,209 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-06-03 15:35:24,732 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-03 15:35:24,793 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 56 ms. Found 7 JPA repository interfaces.
+2023-06-03 15:35:25,244 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2023-06-03 15:35:25,251 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-03 15:35:25,252 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-06-03 15:35:25,252 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-03 15:35:25,324 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-06-03 15:35:25,325 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1079 ms
+2023-06-03 15:35:25,447 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-03 15:35:25,482 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-03 15:35:25,485 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-06-03 15:35:25,582 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 15:35:25,659 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-03 15:35:25,668 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-06-03 15:35:25,795 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4601047
+2023-06-03 15:35:25,797 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-06-03 15:35:25,834 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@cfd5cd2
+2023-06-03 15:35:26,035 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 15:35:26,578 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-03 15:35:26,743 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 15:35:27,019 DEBUG [main] org.springframework.web.filter.GenericFilterBean: Filter 'jwtAuthenticationFilter' configured for use
+2023-06-03 15:35:27,270 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-03 15:35:27,534 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@e2696e8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@345d641e, org.springframework.security.web.context.SecurityContextHolderFilter@242c4a94, org.springframework.security.web.header.HeaderWriterFilter@2b5ca574, org.springframework.security.web.authentication.logout.LogoutFilter@69c6e5, ru.matvey.socialmediaapi.config.JwtAuthenticationFilter@7607340f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@477d6f66, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@12b66c89, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@70cdbd18, org.springframework.security.web.session.SessionManagementFilter@20b921be, org.springframework.security.web.access.ExceptionTranslationFilter@7d44eab, org.springframework.security.web.access.intercept.AuthorizationFilter@79d3c655]
+2023-06-03 15:35:27,721 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-8080"]
+2023-06-03 15:35:27,735 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-03 15:35:27,743 INFO [main] org.springframework.boot.StartupInfoLogger: Started SocialMediaApiApplication in 3.822 seconds (process running for 4.511)
+2023-06-03 15:35:30,215 INFO [http-nio-8080-exec-1] org.apache.juli.logging.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-03 15:35:30,216 INFO [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2023-06-03 15:35:30,217 INFO [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet: Completed initialization in 1 ms
+2023-06-03 15:35:30,592 INFO [http-nio-8080-exec-1] ru.matvey.socialmediaapi.service.PostService: Post 252 created
+2023-06-03 15:37:18,630 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 15:37:18,633 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.lang.NullPointerException: Cannot invoke "org.springframework.core.env.Environment.getProperty(String)" because "this.env" is null
+2023-06-03 15:38:38,471 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 15:39:46,618 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.lang.NullPointerException: Cannot invoke "org.springframework.data.domain.Page.getContent()" because "page" is null
+2023-06-03 15:40:23,420 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.lang.NullPointerException: Cannot invoke "org.springframework.data.domain.Page.getContent()" because "page" is null
+2023-06-03 15:43:41,947 INFO [http-nio-8080-exec-5] ru.matvey.socialmediaapi.service.PostService: Post 253 created
+2023-06-03 15:43:42,865 INFO [http-nio-8080-exec-6] ru.matvey.socialmediaapi.service.PostService: Post 254 created
+2023-06-03 15:43:43,681 INFO [http-nio-8080-exec-7] ru.matvey.socialmediaapi.service.PostService: Post 255 created
+2023-06-03 15:43:44,380 INFO [http-nio-8080-exec-8] ru.matvey.socialmediaapi.service.PostService: Post 256 created
+2023-06-03 15:43:45,111 INFO [http-nio-8080-exec-9] ru.matvey.socialmediaapi.service.PostService: Post 257 created
+2023-06-03 15:43:45,797 INFO [http-nio-8080-exec-10] ru.matvey.socialmediaapi.service.PostService: Post 258 created
+2023-06-03 15:43:46,612 INFO [http-nio-8080-exec-4] ru.matvey.socialmediaapi.service.PostService: Post 259 created
+2023-06-03 15:43:47,295 INFO [http-nio-8080-exec-1] ru.matvey.socialmediaapi.service.PostService: Post 260 created
+2023-06-03 15:43:47,926 INFO [http-nio-8080-exec-3] ru.matvey.socialmediaapi.service.PostService: Post 261 created
+2023-06-03 15:43:48,619 INFO [http-nio-8080-exec-2] ru.matvey.socialmediaapi.service.PostService: Post 262 created
+2023-06-03 15:43:49,180 INFO [http-nio-8080-exec-5] ru.matvey.socialmediaapi.service.PostService: Post 263 created
+2023-06-03 15:43:49,838 INFO [http-nio-8080-exec-6] ru.matvey.socialmediaapi.service.PostService: Post 264 created
+2023-06-03 15:43:50,431 INFO [http-nio-8080-exec-7] ru.matvey.socialmediaapi.service.PostService: Post 265 created
+2023-06-03 15:43:51,059 INFO [http-nio-8080-exec-8] ru.matvey.socialmediaapi.service.PostService: Post 266 created
+2023-06-03 15:43:51,635 INFO [http-nio-8080-exec-9] ru.matvey.socialmediaapi.service.PostService: Post 267 created
+2023-06-03 15:43:52,182 INFO [http-nio-8080-exec-10] ru.matvey.socialmediaapi.service.PostService: Post 268 created
+2023-06-03 15:43:52,776 INFO [http-nio-8080-exec-4] ru.matvey.socialmediaapi.service.PostService: Post 269 created
+2023-06-03 15:43:53,475 INFO [http-nio-8080-exec-1] ru.matvey.socialmediaapi.service.PostService: Post 270 created
+2023-06-03 15:46:53,690 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 15:46:53,706 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 15:46:53,707 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.nio.file.FileAlreadyExistsException: nullnull
+2023-06-03 15:46:53,707 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 15:46:53,708 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.nio.file.FileAlreadyExistsException: nullnull
+2023-06-03 15:46:53,708 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 15:46:53,709 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.nio.file.FileAlreadyExistsException: nullnull
+2023-06-03 15:46:53,709 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 15:46:53,709 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.nio.file.FileAlreadyExistsException: nullnull
+2023-06-03 15:46:53,712 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.lang.NullPointerException: Cannot invoke "org.springframework.data.domain.Page.getContent()" because "page" is null
+2023-06-03 15:47:03,251 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 15:47:03,256 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.nio.file.FileAlreadyExistsException: nullnull
+2023-06-03 15:47:03,271 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 15:47:03,272 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.nio.file.FileAlreadyExistsException: nullnull
+2023-06-03 15:47:03,273 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 15:47:03,273 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.nio.file.FileAlreadyExistsException: nullnull
+2023-06-03 15:47:03,274 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 15:47:03,274 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.nio.file.FileAlreadyExistsException: nullnull
+2023-06-03 15:47:03,275 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 15:47:03,276 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.nio.file.FileAlreadyExistsException: nullnull
+2023-06-03 15:47:03,278 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.lang.NullPointerException: Cannot invoke "org.springframework.data.domain.Page.getContent()" because "page" is null
+2023-06-03 15:49:32,414 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 15:54:25,851 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 15:54:25,858 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.nio.file.FileAlreadyExistsException: nullnull
+2023-06-03 15:54:25,869 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 15:54:25,870 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.nio.file.FileAlreadyExistsException: nullnull
+2023-06-03 15:54:25,871 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 15:54:25,871 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.nio.file.FileAlreadyExistsException: nullnull
+2023-06-03 15:54:25,871 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 15:54:25,872 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.nio.file.FileAlreadyExistsException: nullnull
+2023-06-03 15:54:25,872 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 15:54:25,872 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.nio.file.FileAlreadyExistsException: nullnull
+2023-06-03 15:54:25,875 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.lang.NullPointerException: Cannot invoke "org.springframework.data.domain.Page.getContent()" because "page" is null
+2023-06-03 17:18:20,055 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 17:18:20,059 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.nio.file.FileAlreadyExistsException: nullnull
+2023-06-03 17:18:20,073 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 17:18:20,074 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.nio.file.FileAlreadyExistsException: nullnull
+2023-06-03 17:18:20,075 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 17:18:20,075 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.nio.file.FileAlreadyExistsException: nullnull
+2023-06-03 17:18:20,075 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 17:18:20,076 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.nio.file.FileAlreadyExistsException: nullnull
+2023-06-03 17:18:20,076 INFO [main] ru.matvey.socialmediaapi.service.PostService: Post null created
+2023-06-03 17:18:20,076 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.nio.file.FileAlreadyExistsException: nullnull
+2023-06-03 17:18:20,079 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.lang.NullPointerException: Cannot invoke "org.springframework.data.domain.Page.getContent()" because "page" is null
+2023-06-03 18:11:23,599 INFO [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils: Could not detect default configuration classes for test class [ru.matvey.socialmediaapi.SocialMediaApiApplicationTests]: SocialMediaApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-03 18:11:23,817 INFO [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper: Found @SpringBootConfiguration ru.matvey.socialmediaapi.SocialMediaApiApplication for test class ru.matvey.socialmediaapi.SocialMediaApiApplicationTests
+2023-06-03 18:11:24,317 INFO [main] org.springframework.boot.StartupInfoLogger: Starting SocialMediaApiApplicationTests using Java 19.0.2 with PID 16664 (started by matvey in E:\Dev\IdeaProjects\social-media-api)
+2023-06-03 18:11:24,318 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0, Spring v6.0.9
+2023-06-03 18:11:24,319 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-06-03 18:11:25,359 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-03 18:11:25,476 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 105 ms. Found 7 JPA repository interfaces.
+2023-06-03 18:11:26,200 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-03 18:11:26,315 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-03 18:11:26,320 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-06-03 18:11:26,581 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 18:11:26,792 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-03 18:11:26,824 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-06-03 18:11:27,315 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5889fc44
+2023-06-03 18:11:27,317 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-06-03 18:11:27,399 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@6f0a4e30
+2023-06-03 18:11:27,875 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-03 18:11:28,928 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-03 18:11:29,140 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 18:11:29,943 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-03 18:11:30,379 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2821da0a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2ae07dbd, org.springframework.security.web.context.SecurityContextHolderFilter@501b15b9, org.springframework.security.web.header.HeaderWriterFilter@218fc40d, org.springframework.security.web.authentication.logout.LogoutFilter@e356940, ru.matvey.socialmediaapi.config.JwtAuthenticationFilter@2e03bb74, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@c5e7696, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4f579582, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@e7ddf8d, org.springframework.security.web.session.SessionManagementFilter@37823482, org.springframework.security.web.access.ExceptionTranslationFilter@3e574f9c, org.springframework.security.web.access.intercept.AuthorizationFilter@6d4df1d2]
+2023-06-03 18:11:30,812 INFO [main] org.springframework.boot.StartupInfoLogger: Started SocialMediaApiApplicationTests in 6.766 seconds (process running for 8.614)
+2023-06-03 18:11:31,431 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 18:11:31,434 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-06-03 18:11:31,438 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-06-03 18:15:24,653 WARN [main] ru.matvey.socialmediaapi.service.ChatService: Chat 1 not found
+2023-06-03 18:34:38,322 WARN [main] ru.matvey.socialmediaapi.service.ChatService: java.lang.NullPointerException
+2023-06-03 18:58:30,136 WARN [main] ru.matvey.socialmediaapi.service.ChatService: java.lang.NullPointerException
+2023-06-03 19:11:53,485 WARN [main] ru.matvey.socialmediaapi.service.ChatService: Chat 1 not found
+2023-06-03 19:18:32,767 WARN [main] ru.matvey.socialmediaapi.service.ChatService: Chat 1 not found
+2023-06-03 19:19:35,917 WARN [main] ru.matvey.socialmediaapi.service.ChatService: Chat 1 not found
+2023-06-03 19:21:12,060 WARN [main] ru.matvey.socialmediaapi.service.ChatService: Chat 1 not found
+2023-06-03 19:28:22,392 WARN [main] ru.matvey.socialmediaapi.service.ChatService: you can't write to a friend who isn't yours
+2023-06-03 19:28:54,311 WARN [main] ru.matvey.socialmediaapi.service.ChatService: Chat 1 not found
+2023-06-03 19:42:54,419 WARN [main] ru.matvey.socialmediaapi.service.ChatService: Chat 1 not found
+2023-06-03 19:44:49,708 WARN [main] ru.matvey.socialmediaapi.service.ChatService: Chat 1 not found
+2023-06-03 19:56:33,853 WARN [main] ru.matvey.socialmediaapi.service.ChatService: Chat 1 not found
+2023-06-03 19:58:38,228 WARN [main] ru.matvey.socialmediaapi.service.ChatService: Chat 1 not found
+2023-06-03 19:59:32,335 WARN [main] ru.matvey.socialmediaapi.service.ChatService: Chat 1 not found
+2023-06-03 20:02:03,086 WARN [main] ru.matvey.socialmediaapi.service.ChatService: Chat 1 not found
+2023-06-03 20:10:09,503 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03 20:10:09,559 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-06-03 20:10:09,571 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
