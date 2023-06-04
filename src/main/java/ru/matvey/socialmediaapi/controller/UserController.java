@@ -1,12 +1,16 @@
 package ru.matvey.socialmediaapi.controller;
 
+import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import ru.matvey.socialmediaapi.dto.auth.AuthRequest;
 import ru.matvey.socialmediaapi.dto.auth.AuthResponse;
 import ru.matvey.socialmediaapi.dto.auth.RegisterRequest;
+import ru.matvey.socialmediaapi.model.User;
 import ru.matvey.socialmediaapi.service.UserService;
+
+import java.util.List;
 
 
 @RestController
@@ -42,7 +46,8 @@ public class UserController {
     }
 
     @GetMapping("/all")
-    public ResponseEntity<?> getAllUsers(){
+    @Transactional
+    public List<User> getAllUsers(){
         return service.getAllUsers();
     }
 

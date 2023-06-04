@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
+import ru.matvey.socialmediaapi.dto.auth.UserDto;
 import ru.matvey.socialmediaapi.enums.Role;
 
 import java.util.Collection;
@@ -31,9 +32,9 @@ public class User implements UserDetails {
     private String password;
     private Role role;
     @OneToMany
-    private List<User> friends;
+    private List<UserDto> friends;
     @OneToMany
-    private List<User> subscriptions;
+    private List<UserDto> subscriptions;
 
 
 

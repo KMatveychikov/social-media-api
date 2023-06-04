@@ -26,12 +26,13 @@ public class SecurityConfiguration {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
                 .csrf(AbstractHttpConfigurer::disable)
+                .cors().disable()
                 .authorizeHttpRequests()
 //                .requestMatchers("/api/v1/auth/**").permitAll()
 //                .requestMatchers("/api/v1/**").hasAuthority("_ADMIN")
 //                .requestMatchers("/api/v1/**").hasAuthority("_USER")
                 .requestMatchers("/api/v1/**").permitAll()
-                .requestMatchers("/api/v1/auth/**").permitAll()
+                .requestMatchers("/api/v1/user/**").permitAll()
                 //.requestMatchers("/api/v1/**").authenticated()
                 .requestMatchers("/swagger-ui/**").permitAll()
                 .requestMatchers("/v3/api-docs/**").permitAll()

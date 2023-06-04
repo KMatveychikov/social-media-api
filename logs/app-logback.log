@@ -1,42 +1,38 @@
-2023-06-01 09:15:38,123 INFO [main] org.springframework.boot.StartupInfoLogger: Starting SocialMediaApiApplication using Java 19.0.2 with PID 16660 (E:\Dev\IdeaProjects\social-media-api\target\classes started by matvey in E:\Dev\IdeaProjects\social-media-api)
-2023-06-01 09:15:38,126 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0, Spring v6.0.9
-2023-06-01 09:15:38,127 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
-2023-06-01 09:15:38,661 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-06-01 09:15:38,716 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 49 ms. Found 4 JPA repository interfaces.
-2023-06-01 09:15:39,169 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
-2023-06-01 09:15:39,176 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
-2023-06-01 09:15:39,177 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
-2023-06-01 09:15:39,177 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/10.1.8]
-2023-06-01 09:15:39,249 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
-2023-06-01 09:15:39,250 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1081 ms
-2023-06-01 09:15:39,359 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-06-01 09:15:39,395 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
-2023-06-01 09:15:39,397 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
-2023-06-01 09:15:39,499 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
-2023-06-01 09:15:39,575 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
-2023-06-01 09:15:39,585 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
-2023-06-01 09:15:39,715 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@482a58c7
-2023-06-01 09:15:39,717 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
-2023-06-01 09:15:39,756 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@7ef41ca2
-2023-06-01 09:15:39,952 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
-2023-06-01 09:15:40,464 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-06-01 09:15:40,585 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-06-01 09:15:40,864 DEBUG [main] org.springframework.web.filter.GenericFilterBean: Filter 'jwtAuthenticationFilter' configured for use
-2023-06-01 09:15:41,022 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-06-01 09:15:41,286 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@52b6561b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7505dcab, org.springframework.security.web.context.SecurityContextHolderFilter@ff12b53, org.springframework.security.web.header.HeaderWriterFilter@7dd2a5f7, org.springframework.security.web.authentication.logout.LogoutFilter@44d6f9cf, ru.matvey.socialmediaapi.config.JwtAuthenticationFilter@36f497b1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@9863ed5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@763ddfc3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6d94a966, org.springframework.security.web.session.SessionManagementFilter@5274acd1, org.springframework.security.web.access.ExceptionTranslationFilter@693ed09d, org.springframework.security.web.access.intercept.AuthorizationFilter@11ad327f]
-2023-06-01 09:15:41,488 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-8080"]
-2023-06-01 09:15:41,505 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
-2023-06-01 09:15:41,513 INFO [main] org.springframework.boot.StartupInfoLogger: Started SocialMediaApiApplication in 3.683 seconds (process running for 4.43)
-2023-06-01 09:23:47,695 WARN [main] ru.matvey.socialmediaapi.service.PostService: Post 1 not found
-2023-06-01 09:23:47,805 WARN [main] ru.matvey.socialmediaapi.service.PostService: Post null not found
-2023-06-01 10:57:02,134 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.lang.NullPointerException: Cannot invoke "org.springframework.security.core.Authentication.getName()" because "auth" is null
-2023-06-01 11:07:00,239 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.lang.NullPointerException: Cannot invoke "org.springframework.security.core.Authentication.getName()" because "auth" is null
-2023-06-01 11:15:09,902 WARN [main] ru.matvey.socialmediaapi.service.PostService: java.lang.NullPointerException: Cannot invoke "org.springframework.security.core.Authentication.getName()" because "auth" is null
-2023-06-01 11:35:10,472 WARN [main] ru.matvey.socialmediaapi.service.UserService: java.lang.NullPointerException: Cannot invoke "org.springframework.security.crypto.password.PasswordEncoder.encode(java.lang.CharSequence)" because "this.passwordEncoder" is null
-2023-06-01 11:36:50,318 WARN [main] ru.matvey.socialmediaapi.service.UserService: java.lang.NullPointerException: Cannot invoke "org.springframework.security.crypto.password.PasswordEncoder.encode(java.lang.CharSequence)" because "this.passwordEncoder" is null
-2023-06-01 11:37:33,867 INFO [main] ru.matvey.socialmediaapi.service.UserService: new user register User(id=null, username=testUser@example.com, email=testUser@example.com, password=null, role=_USER, friends=null, subscriptions=null)
-2023-06-01 11:38:22,971 INFO [main] ru.matvey.socialmediaapi.service.UserService: new user register User(id=null, username=testUser@example.com, email=testUser@example.com, password=null, role=_USER, friends=null, subscriptions=null)
-2023-06-01 11:39:26,232 INFO [main] ru.matvey.socialmediaapi.service.UserService: new user register User(id=null, username=testUser@example.com, email=testUser@example.com, password=null, role=_USER, friends=null, subscriptions=null)
-2023-06-01 11:41:57,778 INFO [main] ru.matvey.socialmediaapi.service.UserService: new user register User(id=null, username=testUser@example.com, email=testUser@example.com, password=null, role=_USER, friends=null, subscriptions=null)
-2023-06-01 11:42:20,004 INFO [main] ru.matvey.socialmediaapi.service.UserService: new user register User(id=null, username=testUser@example.com, email=testUser@example.com, password=null, role=_USER, friends=null, subscriptions=null)
-2023-06-01 11:42:35,881 INFO [main] ru.matvey.socialmediaapi.service.UserService: new user register User(id=null, username=testUser@example.com, email=testUser@example.com, password=null, role=_USER, friends=null, subscriptions=null)
+2023-06-04 09:01:25,178 WARN [main] ru.matvey.socialmediaapi.service.ChatService: Chat 1 not found
+2023-06-04 09:16:34,874 WARN [main] ru.matvey.socialmediaapi.service.ChatService: Chat 1 not found
+2023-06-04 09:18:34,979 WARN [main] ru.matvey.socialmediaapi.service.ChatService: Chat 1 not found
+2023-06-04 10:50:08,051 WARN [main] ru.matvey.socialmediaapi.service.ChatService: Chat 1 not found
+2023-06-04 11:50:41,984 WARN [main] ru.matvey.socialmediaapi.service.ChatService: Chat 1 not found
+2023-06-04 11:50:46,643 INFO [main] org.springframework.boot.StartupInfoLogger: Starting SocialMediaApiApplication using Java 19.0.2 with PID 9996 (E:\Dev\IdeaProjects\social-media-api\target\classes started by matvey in E:\Dev\IdeaProjects\social-media-api)
+2023-06-04 11:50:46,645 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0, Spring v6.0.9
+2023-06-04 11:50:46,646 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-06-04 11:50:47,323 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-04 11:50:47,400 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 68 ms. Found 7 JPA repository interfaces.
+2023-06-04 11:50:47,907 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2023-06-04 11:50:47,914 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-04 11:50:47,915 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-06-04 11:50:47,915 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-04 11:50:47,999 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-06-04 11:50:48,000 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1318 ms
+2023-06-04 11:50:48,114 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-04 11:50:48,170 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-04 11:50:48,172 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-06-04 11:50:48,293 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-04 11:50:48,369 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-04 11:50:48,382 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-06-04 11:50:48,536 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@45d389f2
+2023-06-04 11:50:48,538 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-06-04 11:50:48,576 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@76af34b5
+2023-06-04 11:50:48,812 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-06-04 11:50:49,394 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-04 11:50:49,578 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-04 11:50:49,876 DEBUG [main] org.springframework.web.filter.GenericFilterBean: Filter 'jwtAuthenticationFilter' configured for use
+2023-06-04 11:50:50,212 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-04 11:50:50,879 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@24bc06dd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@26d02dc6, org.springframework.security.web.context.SecurityContextHolderFilter@60510791, org.springframework.security.web.header.HeaderWriterFilter@2c7ac998, org.springframework.security.web.authentication.logout.LogoutFilter@487ee2a, ru.matvey.socialmediaapi.config.JwtAuthenticationFilter@eee26bd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@a1689e8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4bb644dc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@24d7c365, org.springframework.security.web.session.SessionManagementFilter@cef23a8, org.springframework.security.web.access.ExceptionTranslationFilter@6e6bd43b, org.springframework.security.web.access.intercept.AuthorizationFilter@32eac39b]
+2023-06-04 11:50:51,204 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-8080"]
+2023-06-04 11:50:51,223 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-04 11:50:51,232 INFO [main] org.springframework.boot.StartupInfoLogger: Started SocialMediaApiApplication in 4.898 seconds (process running for 5.787)
+2023-06-04 11:51:10,781 INFO [http-nio-8080-exec-2] org.apache.juli.logging.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-04 11:51:10,781 INFO [http-nio-8080-exec-2] org.springframework.web.servlet.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2023-06-04 11:51:10,783 INFO [http-nio-8080-exec-2] org.springframework.web.servlet.FrameworkServlet: Completed initialization in 1 ms
+2023-06-04 11:51:11,468 INFO [http-nio-8080-exec-9] org.springdoc.api.AbstractOpenApiResource: Init duration for springdoc-openapi is: 231 ms

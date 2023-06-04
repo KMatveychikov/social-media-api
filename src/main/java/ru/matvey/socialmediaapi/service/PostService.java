@@ -2,6 +2,11 @@ package ru.matvey.socialmediaapi.service;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.beans.support.PagedListHolder;
+import org.springframework.core.env.Environment;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -33,19 +38,22 @@ public class PostService {
     private final PostRepository postRepository;
     private final FileInfoRepository fileInfoRepository;
 
-    private final String PATH_TO_FILES = "E:\\Dev\\IdeaProjects\\social-media-api\\files\\";
+    private final Environment env;
 
-    public ResponseEntity<?> addPost(AddPostRequest request) throws IOException {
+//    @Value("${pathToFiles}")
+//    private final String pathToFiles;
+
+    public ResponseEntity<?> addPost(AddPostRequest request, User user) throws IOException {
         try {
             Post post = Post.builder()
                     .title(request.getTitle())
                     .text(request.getText())
-                    .author(authService.getCurrentUser())
+                    .author(user)
                     .files(new ArrayList<>())
                     .build();
             postRepository.save(post);
             log.info("Post {} created", post.getId());
-            Files.createDirectory(Path.of(PATH_TO_FILES + post.getId()));
+            Files.createDirectory(Path.of(env.getProperty("pathToFiles") + post.getId()));
             return ResponseEntity.ok(post);
         } catch (Exception e) {
             log.warn(e.toString());
@@ -55,9 +63,10 @@ public class PostService {
 
     }
 
-    public ResponseEntity<?> getAllPosts() {
+    public ResponseEntity<?> getAllPosts(PageRequest pageRequest) {
         try {
-            return ResponseEntity.ok(postRepository.findAll());
+            Page<Post> page = postRepository.findAll(pageRequest);
+            return ResponseEntity.ok(page.getContent());
         } catch (Exception e) {
             log.warn(e.toString());
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(e);
@@ -115,7 +124,7 @@ public class PostService {
         return postRepository.findPostsByAuthor(author);
     }
 
-    public ResponseEntity<?> getPostsBySubscriptions() {
+    public ResponseEntity<?> getPostsBySubscriptions(PageRequest pageRequest) {
         try {
             User user = authService.getCurrentUser();
             List<Post> postFeed = new ArrayList<>();
@@ -126,7 +135,11 @@ public class PostService {
                     throw new RuntimeException(e);
                 }
             });
-            return ResponseEntity.ok(postFeed);
+            PagedListHolder<Post> pagedListHolder = new PagedListHolder<Post>(postFeed);
+            pagedListHolder.setPage(pageRequest.getPageNumber());
+            pagedListHolder.setPageSize(pageRequest.getPageSize());
+
+            return ResponseEntity.ok(pagedListHolder.getPageList());
 
         } catch (Exception e) {
             log.warn(e.toString());
@@ -138,7 +151,7 @@ public class PostService {
         try {
             Post post = getPostById(postId);
             if (authService.getCurrentUser() == post.getAuthor()) {
-                String path = PATH_TO_FILES + postId + "//" + file.getOriginalFilename();
+                String path = env.getProperty("pathToFiles") + postId + "//" + file.getOriginalFilename();
                 try {
                     file.transferTo(new File(path));
                 } catch (Exception e) {
