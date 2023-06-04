@@ -6,10 +6,19 @@ import org.junit.jupiter.api.BeforeEach;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+//TODO: мёртвый код
 //import static org.mockito.Mockito.*;
+
+//TODO: когда мы тестируем контроллеры, мы должны проверять как минимум 2 вещи:
+// 1) код ответа
+// 2) реквест
+// 3) респонс
+// Надо немного допилить
 class UserControllerTest {
+    //TODO: давай префикс уберём
     @Mock
     ru.matvey.socialmediaapi.service.UserService service;
+    //TODO: префикс
     @InjectMocks
     ru.matvey.socialmediaapi.controller.UserController userController;
 
@@ -19,7 +28,7 @@ class UserControllerTest {
     }
 
     @Test
-    void testRegister(){
+    void testRegister() {
         when(service.register(any())).thenReturn(null);
 
         org.springframework.http.ResponseEntity<?> result = userController.register(new ru.matvey.socialmediaapi.dto.auth.RegisterRequest("name", "email", "password", ru.matvey.socialmediaapi.enums.Role._USER));
@@ -27,7 +36,7 @@ class UserControllerTest {
     }
 
     @Test
-    void testAuthenticate(){
+    void testAuthenticate() {
         when(service.authenticate(any())).thenReturn(new ru.matvey.socialmediaapi.dto.auth.AuthResponse("token"));
 
         ru.matvey.socialmediaapi.dto.auth.AuthResponse result = userController.authenticate(new ru.matvey.socialmediaapi.dto.auth.AuthRequest("email", "password"));
@@ -35,7 +44,7 @@ class UserControllerTest {
     }
 
     @Test
-    void testMakeFriendshipRequest(){
+    void testMakeFriendshipRequest() {
         when(service.makeFriendshipRequest(anyLong())).thenReturn(null);
 
         org.springframework.http.ResponseEntity<?> result = userController.makeFriendshipRequest(Long.valueOf(1));
@@ -43,7 +52,7 @@ class UserControllerTest {
     }
 
     @Test
-    void testAcceptFriendRequest(){
+    void testAcceptFriendRequest() {
         when(service.acceptFriendship(anyLong())).thenReturn(null);
 
         org.springframework.http.ResponseEntity<?> result = userController.acceptFriendRequest(Long.valueOf(1));
@@ -51,7 +60,7 @@ class UserControllerTest {
     }
 
     @Test
-    void testGetAllUsers(){
+    void testGetAllUsers() {
         when(service.getAllUsers()).thenReturn(java.util.List.of(new ru.matvey.socialmediaapi.model.User(Long.valueOf(1), "username", "email", "password", ru.matvey.socialmediaapi.enums.Role._USER, java.util.List.of(new ru.matvey.socialmediaapi.dto.auth.UserDto(Long.valueOf(1), "email", "name")), java.util.List.of(new ru.matvey.socialmediaapi.dto.auth.UserDto(Long.valueOf(1), "email", "name")))));
 
         java.util.List<ru.matvey.socialmediaapi.model.User> result = userController.getAllUsers();

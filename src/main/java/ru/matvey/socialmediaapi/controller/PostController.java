@@ -23,10 +23,13 @@ public class PostController {
         return postService.addPost(request);
     }
 
+    //TODO: может попробуем без _ ?
+    // не очень хороший контракт, постов может быть миллион, в таком случае лучше использовать пагинацию
     @GetMapping("/get_all")
     public ResponseEntity<?> getAllPosts() {
         return postService.getAllPosts();
     }
+    //TODO: может попробуем без _ ?
     @GetMapping("/post_feed")
     public ResponseEntity<?> getPostFeed(){
         return postService.getPostsBySubscriptions();
@@ -37,6 +40,7 @@ public class PostController {
         return postService.updatePost(request);
     }
 
+    //TODO: может попробуем без _ ?
     @PostMapping("/add_file")
     public ResponseEntity<?> addFileToPost(@RequestParam Long postId,@RequestParam MultipartFile file) throws Exception {
        return postService.addFileToPost(postId, file);

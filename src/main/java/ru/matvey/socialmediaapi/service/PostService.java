@@ -33,6 +33,7 @@ public class PostService {
     private final PostRepository postRepository;
     private final FileInfoRepository fileInfoRepository;
 
+    //TODO: я бы это вынес в конфиг
     private final String PATH_TO_FILES = "E:\\Dev\\IdeaProjects\\social-media-api\\files\\";
 
     public ResponseEntity<?> addPost(AddPostRequest request) throws IOException {
@@ -99,6 +100,7 @@ public class PostService {
         });
     }
 
+    //TODO: не используется
     public ResponseEntity<?> deletePost(Long postId) throws Exception {
         Post post = getPostById(postId);
         if (post.getAuthor() == authService.getCurrentUser()) {

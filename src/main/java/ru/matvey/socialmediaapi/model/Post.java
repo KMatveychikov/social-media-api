@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 import java.util.List;
 
 @Entity
+//TODO: @Data здесь overkill мне кажется
 @Data
 @Builder
 @AllArgsConstructor

@@ -1,2 +1,5 @@
-package ru.matvey.socialmediaapi.service;public class ChatService {
+package ru.matvey.socialmediaapi.service;
+
+//TODO: выпиливаем ?
+public class ChatService {
 }

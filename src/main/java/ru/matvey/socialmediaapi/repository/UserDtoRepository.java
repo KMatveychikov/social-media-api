@@ -1,2 +1,5 @@
-package ru.matvey.socialmediaapi.repository;public class UserDtoRepository {
+package ru.matvey.socialmediaapi.repository;
+
+//TODO: выпиливаем ?
+public class UserDtoRepository {
 }
