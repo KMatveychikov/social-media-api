@@ -9,6 +9,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+//TODO: @Data здесь overkill мне кажется
 @Data
 @Builder
 @AllArgsConstructor

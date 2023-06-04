@@ -1,2 +1,5 @@
-package ru.matvey.socialmediaapi.controller;public class ChatController {
+package ru.matvey.socialmediaapi.controller;
+
+//TODO: выпиливаем ?
+public class ChatController {
 }

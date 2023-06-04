@@ -1,2 +1,5 @@
-package ru.matvey.socialmediaapi.model;public class Chat {
+package ru.matvey.socialmediaapi.model;
+
+//TODO: выпиливаем ?
+public class Chat {
 }

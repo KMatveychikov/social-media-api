@@ -15,11 +15,13 @@ import ru.matvey.socialmediaapi.enums.Role;
 import java.util.Collection;
 import java.util.List;
 
+//TODO: @Data здесь overkill мне кажется
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
+//TODO: я понимаю почему ты так сделал, но это выглядит как служебная таблица
 @Table(name = "_user")
 public class User implements UserDetails {
     @Id
@@ -34,7 +36,6 @@ public class User implements UserDetails {
     private List<User> friends;
     @OneToMany
     private List<User> subscriptions;
-
 
 
     @Override

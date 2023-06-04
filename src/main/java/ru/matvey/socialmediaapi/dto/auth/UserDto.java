@@ -1,2 +1,5 @@
-package ru.matvey.socialmediaapi.dto.auth;public class UserDto {
+package ru.matvey.socialmediaapi.dto.auth;
+
+//TODO: выпиливаем ?
+public class UserDto {
 }

@@ -7,6 +7,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
+//TODO: @Data здесь overkill мне кажется
 @Data
 @Builder
 @AllArgsConstructor

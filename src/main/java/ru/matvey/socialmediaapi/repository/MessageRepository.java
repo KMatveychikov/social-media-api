@@ -1,2 +1,5 @@
-package ru.matvey.socialmediaapi.repository;public interface MessageRepository {
+package ru.matvey.socialmediaapi.repository;
+
+//TODO: выпиливаем ?
+public interface MessageRepository {
 }
